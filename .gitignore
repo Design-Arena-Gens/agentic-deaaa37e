@@ -29,7 +29,6 @@ lerna-debug.log*
 pnpm-debug.log*
 
 # Package manager lock files
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 .pnpm-store/
@@ -915,3 +914,17 @@ config/database.yml
 *.zip
 
 # ===== END =====
+
+# Project configuration files to keep
+!package.json
+!package-lock.json
+!tsconfig.json
+!.eslintrc.json
+!.prettierrc
+!.prettierrc.json
+!.stylelintrc
+!.stylelintrc.json
+!postcss.config.js
+!tailwind.config.js
+!next.config.mjs
+!next-env.d.ts
